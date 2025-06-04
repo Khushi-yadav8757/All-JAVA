@@ -1,3 +1,4 @@
+ //Check if a number is Prime
 public class PrimeCheck {
     public static boolean isPrime(int n) {
         if (n <= 1) return false;
