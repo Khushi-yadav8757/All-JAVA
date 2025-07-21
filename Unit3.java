@@ -22,7 +22,7 @@ Inheritance is the mechanism in Java by which one class is allowed to inherit th
 | Multiple           | One class inherits from more than one class     |  No (via class)  |
 | Hybrid             | Combination of above                            |  Via interface   |
 
- ✅ Program: Single Inheritance
+  Program: Single Inheritance
 
 
 class Animal {
@@ -237,7 +237,7 @@ Show constructor and method access example.
 
 ##  **AKTU Java Unit 3 Syllabus (OOPs with Java)**
 
-📚 **Unit 3: Inheritance, Package and Interfaces**
+ **Unit 3: Inheritance, Package and Interfaces**
 
 > * Inheritance: Single, Multilevel, Hierarchical
 > * Method Overriding
@@ -261,7 +261,7 @@ Show constructor and method access example.
 
 Inheritance is the mechanism in Java by which one class acquires the properties (fields and methods) of another class using the `extends` keyword.
 
-🔹 Types of Inheritance in Java:
+ Types of Inheritance in Java:
 
 | Type         | Description                                  |
 | ------------ | -------------------------------------------- |
@@ -269,10 +269,10 @@ Inheritance is the mechanism in Java by which one class acquires the properties 
 | Multilevel   | Derived class inherits another derived class |
 | Hierarchical | Multiple subclasses inherit one superclass   |
 
-> 🚫 Java does not support multiple inheritance using classes to avoid ambiguity (but supports via interface).
+> Java does not support multiple inheritance using classes to avoid ambiguity (but supports via interface).
 
 
-  ✅ Example: Multilevel Inheritance
+   Example: Multilevel Inheritance
   
 class Animal {
     void eat() { System.out.println("Eating..."); }
@@ -297,10 +297,10 @@ public class Test {
 
 
 
- 🔸 Q2: Differentiate between Abstract class and Interface.
+  Q2: Differentiate between Abstract class and Interface.
   (AKTU 2014, 2018, 2021)
 
- ✅ Answer:
+  Answer:
 
 | Feature              | Abstract Class                    | Interface                               |
 | -------------------- | --------------------------------- | --------------------------------------- |
@@ -311,15 +311,15 @@ public class Test {
 | Constructors         | Can have constructors             | Cannot have constructors                |
 | Access Modifiers     | Can have private/protected        | Only public                             |
 
-🔸 Q3: What is method overriding? Write Java code to demonstrate it.
+ Q3: What is method overriding? Write Java code to demonstrate it.
   (AKTU 2016, 2020)
-  ✅ Answer:
+   Answer:
 
 Method Overriding means defining a method in subclass with the same signature as in the superclass.
 
 > Used for Runtime Polymorphism.
 
- ✅ Program:
+  Program:
 
 
 class Animal {
@@ -341,11 +341,11 @@ public class Test {
     }
 }
 
- 🔸 Q4: Write the difference between packages and interfaces.
+  Q4: Write the difference between packages and interfaces.
 
 (AKTU 2015, 2017)
 
- ✅ Answer:
+ Answer:
 
 | Feature | Package                      | Interface                                     |
 | ------- | ---------------------------- | --------------------------------------------- |
@@ -354,10 +354,10 @@ public class Test {
 | Access  | Use `import` keyword         | Use `implements` keyword                      |
 | Usage   | Used for modular programming | Used for abstraction and multiple inheritance |
 
- 🔸 Q5: What is the use of `super` keyword in Java?
+  Q5: What is the use of `super` keyword in Java?
 
 (AKTU 2023)
-  ✅ Answer:
+   Answer:
 
 `super` keyword refers to the immediate parent class object.
 It is used for:
@@ -366,7 +366,7 @@ It is used for:
 2. Accessing parent class methods.
 3. Accessing parent class fields.
 
- ✅ Example:
+  Example:
   
 class Animal {
     void sound() {
@@ -389,15 +389,15 @@ public class Test {
 }
 
 
-🔸 Q6: Define interface. How is it implemented in Java?
+ Q6: Define interface. How is it implemented in Java?
   (AKTU 2019)
-  ✅ Answer:
+   Answer:
 
 Interface is a reference type in Java similar to class, that can contain only abstract methods and constants (till Java 7).
 
 > It is implemented using the `implements` keyword.
 
- ✅ Example:
+  Example:
 interface Drawable {
     void draw();
 }
@@ -415,17 +415,16 @@ public class Test {
     }
 }
 -------------------------------------------------------------------
-🔸Q7: Explain user-defined package with suitable example.
+Q7: Explain user-defined package with suitable example.
 
 (AKTU 2022)
-
-✅ Answer:
+Answer:
 
 Package is a group of similar types of classes and interfaces.
 
 User-defined package** is a package created by the programmer.
 
- ✅ Example:
+ Example:
 // File: mypack/Message.java
 package mypack;
 
@@ -446,7 +445,7 @@ public class TestPackage {
 }
 
 
-> 🔹 Save both files properly and compile using:
+>  Save both files properly and compile using:
 
 
 javac -d . Message.java
