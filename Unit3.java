@@ -1,26 +1,26 @@
- ✅ UNIT 3: Inheritance, Packages and Interfaces
+  UNIT 3: Inheritance, Packages and Interfaces
 
-🔶 1. Inheritance in Java
+ 1. Inheritance in Java
   Definition:
 Inheritance is the mechanism in Java by which one class is allowed to inherit the fields and methods of another class.
 
-> ✅ `extends` keyword is used for inheritance.
+>  `extends` keyword is used for inheritance.
 
- 🧠 Why use Inheritance?
+ Why use Inheritance?
 
 * Reusability of code.
 * Improves code structure.
 * Supports polymorphism.
 
-  👉 Types of Inheritance in Java
+   Types of Inheritance in Java
 
-| Type               | Description                                     | Supported in Java |
-| ------------------ | ----------------------------------------------- | ----------------- |
-| Single Inheritance | One class inherits another                      | ✅ Yes             |
-| Multilevel         | A class inherits a class which inherits another | ✅ Yes             |
-| Hierarchical       | Multiple classes inherit the same superclass    | ✅ Yes             |
-| Multiple           | One class inherits from more than one class     | ❌ No (via class)  |
-| Hybrid             | Combination of above                            | ✅ Via interface   |
+| Type               | Description                                     | Supported in Java|
+| ------------------ | ----------------------------------------------- | -----------------|
+| Single Inheritance | One class inherits another                      | Yes              |
+| Multilevel         | A class inherits a class which inherits another |  Yes             |
+| Hierarchical       | Multiple classes inherit the same superclass    |  Yes             |
+| Multiple           | One class inherits from more than one class     |  No (via class)  |
+| Hybrid             | Combination of above                            |  Via interface   |
 
  ✅ Program: Single Inheritance
 
@@ -48,14 +48,14 @@ public class TestInheritance {
 
 -----------------------------------------------------------
 
-🔶 2. super keyword
+ 2. super keyword
 
 Use of `super`:
 
 * To call parent class constructor.
 * To access parent class method or variable.
 
-  ✅ Example: Using `super()` to call parent constructor
+   Example: Using `super()` to call parent constructor
 
 
 class Animal {
@@ -77,11 +77,11 @@ public class Main {
     }
 }
 --------------------------------------------------------------
-🔶 3. Method Overriding
+ 3. Method Overriding
 
 Definition:
 If subclass has a method with same name, return type and parameters as parent class, it overrides the parent method.
- ✅ Example:
+  Example:
 class Animal {
     void sound() {
         System.out.println("Animal makes sound");
@@ -101,19 +101,19 @@ public class Test {
     }
 }
 -----------------------------------------------------------
-🔶 4. final keyword
+ 4. final keyword
 
 * `final class` → cannot be extended.
 * `final method` → cannot be overridden.
 * `final variable` → constant value.
 
 
-  🔶 5.Abstract Class
+   5.Abstract Class
 
 Definition:
 An abstract class cannot be instantiated and may contain abstract methods (without body).
 
- ✅ Syntax:
+  Syntax:
 abstract class Animal {
     abstract void sound();
 }
@@ -124,22 +124,22 @@ class Dog extends Animal {
     }
 }
 -----------------------------------------------------------------------
-📦 Packages in Java
+ Packages in Java
 
- 🔶 1. Definition
+  1. Definition
 
 Package is a namespace that organizes a set of related classes and interfaces.
 
-> ✅ Keyword: `package`
+>  Keyword: `package`
 
- 🔶 2. Types of Packages
+  2. Types of Packages
 
 | Type             | Example                |
 | ---------------- | ---------------------- |
 | Built-in package | `java.util`, `java.io` |
 | User-defined     | Created by programmer  |
 
- ✅Program: User-defined Package
+ Program: User-defined Package
   
 // File: mypackage/Message.java
 package mypackage;
@@ -160,14 +160,14 @@ public class TestPackage {
     }
 }
 ------------------------------------------------------------------
-🔗 Interfaces in Java
- 🔶 1. Definition
+ Interfaces in Java
+  1. Definition
 
 Interface is a blueprint of a class. It has only abstract methods and constants.
 
-> ✅ Keyword: `interface`
+>  Keyword: `interface`
 
-🔶 2.Syntax and Example
+ 2.Syntax and Example
 
 
 interface Animal {
@@ -181,9 +181,9 @@ class Dog implements Animal {
 }
 
 
-> ✅ Interface is used to achieve multiple inheritance in Java.
+>  Interface is used to achieve multiple inheritance in Java.
 
-🔶 3. Differences: Abstract Class vs Interface
+ 3. Differences: Abstract Class vs Interface
 
 | Feature              | Abstract Class             | Interface              |
 | -------------------- | -------------------------- | ---------------------- |
@@ -193,33 +193,33 @@ class Dog implements Animal {
 
 ---------------------------------------------------------------------------------------------------
 
- 📝 PYQs (Previous Year Questions – AKTU)
- 🔸 Q1: What is inheritance? Explain types with example.
+  PYQs (Previous Year Questions – AKTU)
+  Q1: What is inheritance? Explain types with example.
 
 [2009, 2015, 2022]
   Explain with Dog-Animal program.
-🔸 Q2: Differentiate between Abstract class and Interface.
+ Q2: Differentiate between Abstract class and Interface.
   
 [Repeated in 2014, 2018, 2021]
-🔸 Q3: What is method overriding? Write Java code to demonstrate it.
+ Q3: What is method overriding? Write Java code to demonstrate it.
 
 [AKTU 2016, 2020]
- 🔸 Q4: Write the difference between packages and interfaces.
+  Q4: Write the difference between packages and interfaces.
 
 [AKTU 2015, 2017]
-🔸 Q5: What is the use of `super` keyword?
+ Q5: What is the use of `super` keyword?
 
 [2023]
 
 Show constructor and method access example.
 
-🔸 Q6: Define interface. How is it implemented in Java?
+ Q6: Define interface. How is it implemented in Java?
 
 [2019]
-🔸 Q7: Explain user-defined package with suitable example.
+ Q7: Explain user-defined package with suitable example.
   [AKTU 2022]
 
-✅ Summary (Quick Revision)
+ Summary (Quick Revision)
 
 | Concept        | Key Points                         |
 | -------------- | ---------------------------------- |
@@ -235,7 +235,7 @@ Show constructor and method access example.
 
 ---
 
-## ✅ **AKTU Java Unit 3 Syllabus (OOPs with Java)**
+##  **AKTU Java Unit 3 Syllabus (OOPs with Java)**
 
 📚 **Unit 3: Inheritance, Package and Interfaces**
 
@@ -252,12 +252,12 @@ Show constructor and method access example.
 
 ---
 
- ✅ PYQ Answers for Java Unit 3 (AKTU)
-🔸 Q1: What is inheritance? Explain its types with example.
+  PYQ Answers for Java Unit 3 (AKTU)
+ Q1: What is inheritance? Explain its types with example.
 
 (AKTU 2009, 2015, 2022)
 
- ✅ Answer:
+  Answer:
 
 Inheritance is the mechanism in Java by which one class acquires the properties (fields and methods) of another class using the `extends` keyword.
 
