@@ -1,4 +1,6 @@
-       double radius = 7;
+public class FormulaExamples {
+   public static void main(String[] args) {
+        double radius = 7;
         int length = 10, width = 5;
         double base = 6, height = 4;
 
@@ -11,3 +13,5 @@
         System.out.println("Rectangle: " + areaRectangle);
         System.out.println("Triangle: " + areaTriangle);
         System.out.println("-----------------------------------");
+    }
+}
