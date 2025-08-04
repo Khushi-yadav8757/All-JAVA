@@ -12,6 +12,6 @@ public class FormulaExamples {
         System.out.println("Circle: " + areaCircle);
         System.out.println("Rectangle: " + areaRectangle);
         System.out.println("Triangle: " + areaTriangle);
-        System.out.println("-----------------------------------");
+        System.out.println("------");
     }
 }
