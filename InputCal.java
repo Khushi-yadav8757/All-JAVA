@@ -30,6 +30,6 @@ public class SimpleCalculator {
                 return;
         }
         System.out.println("Result: " + result);
-        sc.close();
+        sc.close( );
     }
 }
