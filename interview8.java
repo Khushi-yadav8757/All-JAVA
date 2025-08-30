@@ -12,7 +12,6 @@ public class DuplicateChars {
                 System.out.println(ch + ": " + map.get(ch));
         }
     }
-
     public static void main(String[] args) {
         findDuplicates("programming");
     }
