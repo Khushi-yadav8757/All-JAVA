@@ -14,7 +14,7 @@ Multithreaded
 High Performance
   
 //Data Types, Variables, and Operators
-🔹 Data Types:
+ Data Types:
 Primitive: int, float, char, double, boolean, byte, short, long
 
 Non-Primitive: String, Arrays, Classes, Interfaces
@@ -23,7 +23,7 @@ Local
 Instance
 Static
 
-🔹 Operators:
+// Operators:
   
 Arithmetic: +, -, *, /, %
 Relational: ==, !=, >, <, >=, <=
@@ -75,24 +75,23 @@ Hierarchical
 
 Use super to call parent class constructor/method.
 
-✅ 7. Polymorphism
-🔹 Compile-time Polymorphism (Method Overloading)
+// Polymorphism
+  Compile-time Polymorphism (Method Overloading)
 Same method name, different parameters
 
-🔹 Runtime Polymorphism (Method Overriding)
+ Runtime Polymorphism (Method Overriding)
 Subclass overrides parent class method
 
-✅ 8. Abstraction
+// Abstraction
 Abstract Class: use abstract keyword, can have both abstract and non-abstract methods
-
 Interface: all methods are abstract by default (Java 8+ allows default and static methods)
 
-✅ 9. Encapsulation
+ Encapsulation
 Wrapping data into a single unit using class
 
 Use private variables + public getter/setters
 
-✅ 10. Packages and Access Modifiers
+// Packages and Access Modifiers
 Package: group of related classes (e.g., java.util, java.io)
 
 Access Modifiers:
@@ -105,39 +104,33 @@ protected: package + subclass
 
 public: accessible everywhere
 
-✅ 11. Exception Handling
+// Exception Handling
+  
 Try-Catch-Finally Block
-
 Throw and Throws keywords
-
 Checked Exception: during compilation (IOException)
-
 Unchecked Exception: during runtime (NullPointerException, ArithmeticException)
 
-✅ 12. Multithreading
+//. Multithreading
 Thread: lightweight process
-
 Create thread using:
-
 Extending Thread class
-
 Implementing Runnable interface
 
-🔹 Methods:
+// Methods:
+  
 start(), run(), sleep(), join(), yield()
 
-✅ 13. String Handling
+// String Handling
+  
 String (immutable), StringBuilder (mutable, not thread-safe), StringBuffer (mutable, thread-safe)
-
-🔹 String Methods:
+// String Methods:
 length(), charAt(), equals(), compareTo(), toUpperCase(), substring(), replace(), etc.
 
-✅ 14. Arrays
+// Arrays
+  
 Homogeneous collection of elements
 
-java
-Copy
-Edit
 int[] arr = new int[5]; // Declaration and Initialization
 Multidimensional Array: int[][] matrix = new int[3][3];
 
