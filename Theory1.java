@@ -97,11 +97,8 @@ Package: group of related classes (e.g., java.util, java.io)
 Access Modifiers:
 
 private: accessible only within the class
-
 default: accessible within package
-
 protected: package + subclass
-
 public: accessible everywhere
 
 // Exception Handling
@@ -134,63 +131,47 @@ Homogeneous collection of elements
 int[] arr = new int[5]; // Declaration and Initialization
 Multidimensional Array: int[][] matrix = new int[3][3];
 
-✅ 15. Collections Framework
+// Collections Framework
 Interfaces: List, Set, Map, Queue
-
 Classes: ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, PriorityQueue
 
-🔹 ArrayList Example:
-java
-Copy
-Edit
+// ArrayList Example:
 ArrayList<String> list = new ArrayList<>();
 list.add("Apple");
-✅ 16. Java I/O (Input/Output)
+
+//Java I/O (Input/Output)
 Streams:
-
 InputStream, OutputStream (for binary)
-
 Reader, Writer (for character)
 
-🔹 File Handling:
-java
-Copy
-Edit
+// File Handling:
+
 File f = new File("file.txt");
 Scanner sc = new Scanner(f);
-✅ 17. Java 8 Features
+// Java 8 Features
 Lambda Expressions
-
 Functional Interfaces
-
 Stream API
-
 Method References
-
 Default and Static Methods in Interface
 
-✅ 18. JDBC (Java Database Connectivity)
+//
+JDBC (Java Database Connectivity)
+
 Steps:
-
 Load Driver
-
 Establish Connection
-
 Create Statement
-
 Execute Query
-
 Close Connection
 
-✅ 19. GUI with AWT & Swing
+// GUI with AWT & Swing
 AWT: older, platform-dependent
-
 Swing: lightweight, platform-independent
-
 Components: JFrame, JButton, JLabel, JTextField, etc.
 
-✅ 20. Applets (Less Used Now)
-Small Java programs that run in a browser
+// Applets (Less Used Now)
 
+Small Java programs that run in a browser
 Lifecycle: init(), start(), paint(), stop(), destroy()
 
