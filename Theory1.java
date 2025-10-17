@@ -1,10 +1,10 @@
-✅ 1. Introduction to Java
+// Introduction to Java
   
 Java is an object-oriented, high-level, class-based programming language developed by James Gosling at Sun Microsystems in 1995.
 Platform Independent: Write Once, Run Anywhere (WORA)
 Compiled + Interpreted: Java compiler converts code to Bytecode → JVM executes it.
 
-🔹 Features of Java:
+// Features of Java:
 Simple
 Object-Oriented
 Platform Independent
@@ -12,76 +12,63 @@ Secure
 Robust
 Multithreaded
 High Performance
-
-✅ 2. Data Types, Variables, and Operators
+  
+//Data Types, Variables, and Operators
 🔹 Data Types:
 Primitive: int, float, char, double, boolean, byte, short, long
 
 Non-Primitive: String, Arrays, Classes, Interfaces
-
-🔹 Variables:
+ // Variables:
 Local
 Instance
 Static
 
 🔹 Operators:
+  
 Arithmetic: +, -, *, /, %
-
 Relational: ==, !=, >, <, >=, <=
-
 Logical: &&, ||, !
-
 Assignment: =, +=, -=, *=, /=
 
-✅ 3. Control Statements
+//Control Statements
+  
 if, if-else, else-if ladder
-
 switch-case
-
+  
 Loops:
 
 for
-
 while
-
 do-while
-
 for-each (used with arrays/collections)
-
 Break and Continue
 
-✅ 4. Object-Oriented Programming Concepts (OOPs)
-🔹 Principles:
+//Object-Oriented Programming Concepts (OOPs)
+  
+Principles:
+
 Class & Object
-
 Encapsulation – hiding data using access modifiers and getters/setters
-
 Abstraction – hiding internal details, using abstract classes and interfaces
-
 Inheritance – acquiring features from parent class (using extends)
-
 Polymorphism – compile-time (method overloading) & run-time (method overriding)
-
-🔹 Keywords:
+// Keywords:
 this, super, static, final, new, instanceof
 
-✅ 5. Classes and Objects
+//Classes and Objects
+  
 A class is a blueprint.
-
 An object is an instance of a class.
 
-🔹 Constructors:
+// Constructors:
 Default
-
 Parameterized
-
 Copy
 
-✅ 6. Inheritance in Java
+// Inheritance in Java
+  
 Single
-
 Multilevel
-
 Hierarchical
 
 (Java does not support multiple inheritance via class → use interface)
