@@ -6,5 +6,6 @@ class Add
     b = Integer.parseInt(args[1]);
     c =  a + b;
    System.out.println(c)
- }
+  }
+    
 }
