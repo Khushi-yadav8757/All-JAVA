@@ -8,7 +8,6 @@ public class WelcomeUser {
         String name = sc.nextLine();  // Takes full line input
 
         System.out.println("Welcome, " + name + "!");
-
         sc.close();
     }
 }
