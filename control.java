@@ -7,7 +7,6 @@ public class ControlFlowExample {
         } else {
             System.out.println("Odd");
         }
-
         int day = 2;
         switch(day) {
             case 1: System.out.println("Monday"); break;
