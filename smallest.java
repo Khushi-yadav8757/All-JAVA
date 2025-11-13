@@ -10,7 +10,6 @@ public class MinElement {
                 min = arr[i]; // Naya min mil gaya
             }
         }
-
         System.out.println("Smallest number: " + min);
     }
 }
