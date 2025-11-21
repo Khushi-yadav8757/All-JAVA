@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class AddNumbers {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);  // Create Scanner object
 
         System.out.print("Enter first number: ");
