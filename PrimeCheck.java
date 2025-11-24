@@ -5,7 +5,6 @@ public class PrimeCheck {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         boolean isPrime = true;
-
         if (num <= 1) isPrime = false;
 
         for (int i = 2; i <= num / 2; i++) {
