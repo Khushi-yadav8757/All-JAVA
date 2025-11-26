@@ -4,7 +4,7 @@ public class ExceptionDemo {
         int b = 0;
 
         try {
-            int result = a / b;  // ❌ Error: Division by zero
+            int result = a / b;  // Error: Division by zero
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
