@@ -6,6 +6,5 @@ public class Solution {
         } else {
             System.out.println("You don't have a fever");
         }
-
     }
 }
